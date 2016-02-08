@@ -16,7 +16,7 @@ setup_params_Venturelli2015_1 % initializes params_model1_qss
 ode_handle = @(varargin) ode15s(varargin{:});  % for stiff problems
 
 % solve ODE
-trange = [0 40];
+trange = [0 1000];
 x0 = [0 0 0 0]; % G1, R, G80, G4
 [t,x] = ode_handle(@(t,x) EqnsVenturelli2015_1qss(t,x,params_model1_qss), trange, x0);
 
