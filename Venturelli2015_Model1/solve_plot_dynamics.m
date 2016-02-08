@@ -8,6 +8,10 @@
 clear all
 close all
 
+% environment
+glu = 10;
+gal = 10;
+
 % set parameters
 setup_params_Venturelli2015_1 % initializes params_model1_qss
 

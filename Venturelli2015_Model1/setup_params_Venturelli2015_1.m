@@ -37,10 +37,6 @@ gamma_C81 =	0.015;
 gamma_C84 =	0.024;
 alpha_G80s =	2.5;
 
-% environment
-glu = 10;
-gal = 10;
-
 % aggregated parameters for quasi-steady-state equations
 p0 = k_f81/(gamma_C81+k_r81);
 p1 = k_f84/(gamma_C84+k_r84);
