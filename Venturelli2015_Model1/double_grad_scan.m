@@ -2,6 +2,7 @@
 
 % clear workspace variables and close plots
 % clear all
+% some new changes
 close all
 
 % set up the function handle to solve ODE
